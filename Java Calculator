@@ -1,0 +1,23 @@
+I made a basic Java calculator via a YouTube Tutorial! 
+Code:
+package tyler;
+import java.util.Scanner;
+
+class apples{
+	public static void main (String args[]) {
+		Scanner tyler = new Scanner (System.in);
+		double fnum,snum, answer;
+		System.out.println("Enter first num: ");
+		fnum = tyler.nextDouble();
+		System.out.println("Enter second num: ");
+		snum = tyler.nextDouble();
+		answer = fnum + snum;
+		System.out.println(answer);
+		
+	}
+}
+
+Screenshot:
+https://i.gyazo.com/c45487ac3024882b6fee24550e753cde.png
+
+I called it apples as the YouTube tutorial did, and it helped as I knew it was the 'title'.
